@@ -1,4 +1,4 @@
-# PersonalStudy
+# Personal Study
 
 ## Cybersecurity Certification Roadmap
 

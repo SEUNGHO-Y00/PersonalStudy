@@ -1,5 +1,9 @@
 # PersonalStudy
 
+## Cybersecurity Certification Roadmap
+
+* [Paul Jerimy Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
+
 ## Web Hacking Class
 
 * Basic Fundamental = How to develop a website, and learn what kinds of web application hacking skills are needed for ethical hacking

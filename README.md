@@ -13,6 +13,7 @@
 ## Palo Alto Networks
 
 * [Palo Alto Networks Academy](https://paloaltonetworksacademy.net/)
+* [PCCET Certification Youtube Lecture](https://youtu.be/bKU4VShdPuY?si=FteWn-qWFnk0FIAm)
 
 ## Try Hack Me
 

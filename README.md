@@ -1,8 +1,8 @@
 # Personal Study
 
-## Cybersecurity Certification Roadmap
+## Python for Networking
 
-* [Paul Jerimy Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
+* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 
 ## Web Hacking Class
 
@@ -15,9 +15,9 @@
 
 * [Cloud Security Road Map](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CloudCertification.md)
 
-## Python for Networking
+## Cybersecurity Certification Roadmap
 
-* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
+* [Paul Jerimy Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
 
 ## SANS Summit
 

@@ -6,4 +6,4 @@
 
 ## Cybersecurity Supply/Demand
 
-* [cyberseek](https://www.cyberseek.org/heatmap.html)
+* [Cyberseek](https://www.cyberseek.org/heatmap.html)

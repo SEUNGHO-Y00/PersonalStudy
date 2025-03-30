@@ -7,3 +7,7 @@
 ## Cybersecurity Supply/Demand
 
 * [Cyberseek](https://www.cyberseek.org/heatmap.html)
+
+## Military Transition Resource
+
+* [Military Transition](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/JobResource/MilitaryResource.md)

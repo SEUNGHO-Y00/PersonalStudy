@@ -15,10 +15,6 @@
 
 * [Cloud Security Road Map](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CloudCertification.md)
 
-## Cybersecurity Certification Roadmap
-
-* [Paul Jerimy Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
-
 ## SANS Summit
 
 * [SANS Summit Participation](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SANSsummit.md)
@@ -26,3 +22,7 @@
 ## Try Hack Me
 
 ## World Wide Technology
+
+## Cyber Security Job Resource
+
+* [Job Resource](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/JobResource/README.md)

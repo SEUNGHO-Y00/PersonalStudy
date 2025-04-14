@@ -1,9 +1,5 @@
 # Personal Study
 
-## Python for Networking
-
-* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
-
 ## Web Hacking Class
 
 * Basic Fundamental = How to develop a website, and learn what kinds of web application hacking skills are needed for ethical hacking
@@ -11,6 +7,10 @@
 * [Segfault Academy](https://academy.segfaulthub.com/)
 * [Seffault Academy Cafe](https://cafe.naver.com/officialsegfault)
 * [Web Hacking Class Study and Resources](https://github.com/SEUNGHO-Y00/Web-Hacking-Class)
+
+## Python for Networking
+
+* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 
 ## Cloud Certification
 

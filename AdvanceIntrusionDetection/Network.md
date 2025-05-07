@@ -20,5 +20,13 @@
 
 2. IDS/IPS rules
 
+* [Suricata](https://suricata.io/)
+* [Suricata Github](https://github.com/OISF/suricata)
+* [AWS Examples of stateful rules for Network Firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/suricata-examples.html)
+* [Suricata Rule Format](https://docs.suricata.io/en/latest/rules/intro.html)
+
 3. Wazuh (HIDS overview)
+
+* [ossec](https://www.ossec.net/)
+* [wazuh](https://wazuh.com/)
 

@@ -10,6 +10,8 @@
 
 ## 3. Network- versus host-based detection
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/Network.md)
+
 ## 4. Anomaly detection
 
 ## 5. The ATT&CK Matrix and threat intel

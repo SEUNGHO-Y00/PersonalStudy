@@ -12,6 +12,10 @@
 
 * [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 
+## Advanced Intrusion Detection
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
+
 ## Cloud Certification
 
 * [Cloud Security Road Map](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CloudCertification.md)

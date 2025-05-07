@@ -2,6 +2,8 @@
 
 ## 1. Intrusion detection techniques and methods
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/IntrusionDetection.md)
+
 ## 2. Home Lab Setup
 
 ## 3. Network- versus host-based detection

@@ -22,6 +22,8 @@
 
 ## 6. Data management
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/DataManagement.md)
+
 ## 7. Tactical data
 
 ## 8. Advanced detection through deception technology

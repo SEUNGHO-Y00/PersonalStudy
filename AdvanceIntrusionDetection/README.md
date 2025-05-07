@@ -18,6 +18,8 @@
 
 ## 5. The ATT&CK Matrix and threat intel
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/ThreatIntel.md)
+
 ## 6. Data management
 
 ## 7. Tactical data

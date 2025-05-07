@@ -6,6 +6,8 @@
 
 ## 2. Home Lab Setup
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/HomeLab.md)
+
 ## 3. Network- versus host-based detection
 
 ## 4. Anomaly detection

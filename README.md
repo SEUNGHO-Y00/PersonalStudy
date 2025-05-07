@@ -24,26 +24,9 @@
 
 * [SANS Summit Participation](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SANSsummit.md)
 
-## Hackerone
+## Cyber Security Study Website
 
-* [Hackerone](https://www.hackerone.com/)
-
-## Hack The Box
-
-* [Hack The Box](https://academy.hackthebox.com/)
-
-## Try Hack Me
-
-* [Try Hack Me](https://tryhackme.com/)
-
-## World Wide Technology
-
-* [World Wide Technology](https://www.wwt.com/)
-
-## Enterprisesecurity
-
-* [Enterprise Security](https://www.enterprisesecurity.io/)
-* [Certified Red Ream Professional](https://www.alteredsecurity.com/post/certified-red-team-professional-crtp)
+* [Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
 
 ## Cyber Security Job Resource
 

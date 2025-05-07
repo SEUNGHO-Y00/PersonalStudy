@@ -14,6 +14,8 @@
 
 ## 4. Anomaly detection
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/AnomalyDetection.md)
+
 ## 5. The ATT&CK Matrix and threat intel
 
 ## 6. Data management

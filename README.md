@@ -8,13 +8,13 @@
 * [Seffault Academy Cafe](https://cafe.naver.com/officialsegfault)
 * [Web Hacking Class Study and Resources](https://github.com/SEUNGHO-Y00/Web-Hacking-Class)
 
-## Python for Networking
-
-* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
-
 ## Advanced Intrusion Detection
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
+
+## Python for Networking
+
+* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 
 ## Cloud Certification
 

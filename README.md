@@ -12,6 +12,10 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
 
+## Threat Hunting
+
+* [MAD20 Threat Hunting & Detection Engineering Course](https://youtube.com/playlist?list=PLV8L5Bdyqd-59WqVPBGOEB7REdBpIAZfR&si=pLiwtpO7SA8g1spw)
+
 ## Basics of Threat Analysis
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/README.md)

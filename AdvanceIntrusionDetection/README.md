@@ -26,6 +26,8 @@
 
 ## 7. Tactical data
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/TacticalData.md)
+
 ## 8. Advanced detection through deception technology
 
 ## 9. Advanced Intrusion Detection project

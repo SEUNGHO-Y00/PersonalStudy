@@ -30,5 +30,7 @@
 
 ## 8. Advanced detection through deception technology
 
-## 9. Advanced Intrusion Detection project
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/AdvancedDetection.md)
+
+## 9. Advanced Intrusion Detection Project
 

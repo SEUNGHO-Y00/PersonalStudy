@@ -12,6 +12,10 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
 
+## Basics of Threat Analysis
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/README.md)
+
 ## Python for Networking
 
 * [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)

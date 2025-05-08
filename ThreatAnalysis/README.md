@@ -6,6 +6,8 @@
 
 ## 2. Basics of Threat Analysis - Day 2: Linux and Network Security
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/NetworkSecurity.md)
+
 ## 3. Basics of Threat Analysis - Day 3: Advanced Network Security
 
 ## 4. Basics of Threat Analysis - Day 4: Audit and IT Fundamentals

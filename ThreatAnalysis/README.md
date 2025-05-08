@@ -1,62 +1,24 @@
 # Basics of Threat Analysis
 
+## 1. Basics of Threat Analysis - Day 1: Core Cybersecurity Foundations
 
-1. Basics of Threat Analysis - Day 1: Core Cybersecurity Foundations
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/CybersecurityFoundations.md)
 
-Basics of Threat Analysis - Day 2: Linux and Network Security
-Course · 8 hours
+## 2. Basics of Threat Analysis - Day 2: Linux and Network Security
 
-Topic 2: Network Security and Linux Fundamentals
+## 3. Basics of Threat Analysis - Day 3: Advanced Network Security
 
+## 4. Basics of Threat Analysis - Day 4: Audit and IT Fundamentals
 
+## 5. Basics of Threat Analysis - Day 5: ICS/SCADA Security
 
-Basics of Threat Analysis - Day 3: Advanced Network Security
-Course · 7 hours, 35 minutes
+## 6. Basics of Threat Analysis - Day 6: Privacy Laws and Compliance
 
-Topic 2: Network Security & Linux (continued)
+## 7. Basics of Threat Analysis - Day 7: Vulnerability Management
 
+## 8. Basics of Threat Analysis - Day 8: Cryptography and Security
 
+## 9. Basics of Threat Analysis - Day 9: Incident Response
 
-Basics of Threat Analysis - Day 4: Audit and IT Fundamentals
-Course · 7 hours, 47 minutes
+## 10. Basics of Threat Analysis - Day 10: Ethical Hacking and Threat Modeling
 
-Topic 3: Cybersecurity Audit & Topic 4: IT Fundamentals
-
-
-
-Basics of Threat Analysis - Day 5: ICS/SCADA Security
-Course · 5 hours, 38 minutes
-
-Topic 5: ICS/SCADA Security & IT Management
-
-
-
-Basics of Threat Analysis - Day 6: Privacy Laws and Compliance
-Course · 8 hours, 23 minutes
-
-Topic 6: Privacy Laws
-
-
-
-Basics of Threat Analysis - Day 7: Vulnerability Management
-Course · 6 hours, 44 minutes
-
-Topic 7: Vulnerability Management
-
-
-
-Basics of Threat Analysis - Day 8: Cryptography and Security
-Course · 9 hours, 44 minutes
-
-Topic 8: Cryptography
-
-
-
-Basics of Threat Analysis - Day 9: Incident Response
-Course · 7 hours, 32 minutes
-
-Topic 9: Incident Response & Network Analysis
-
-
-
-Basics of Threat Analysis - Day 10: Ethical Hacking and Threat Modeling

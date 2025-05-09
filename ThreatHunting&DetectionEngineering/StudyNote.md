@@ -106,6 +106,8 @@ Not Detected | False Negative | True Negative
 * Initial Hypothesis
 * Refined Hypothesis: Local Scheduling
 * Refined Hypothesis: Remote Scheduling
+* Refined Hypothesis: Scheduling as Specified User
+* Refinement Considerations
 
 2.7 Creating Abstract Analytics
 

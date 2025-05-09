@@ -11,7 +11,7 @@
 ## Threat Intelligence
 
 * [Advanced Intrusion Detection](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
-* [MAD20 Threat Hunting & Detection Engineering Course](https://youtube.com/playlist?list=PLV8L5Bdyqd-59WqVPBGOEB7REdBpIAZfR&si=pLiwtpO7SA8g1spw)
+* [MAD20 Tech](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/MAD20Tech/README.md)
 * [Basics of Threat Analysis](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/README.md)
 
 ## Python for Networking

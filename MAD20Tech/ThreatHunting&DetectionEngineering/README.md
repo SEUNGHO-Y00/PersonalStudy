@@ -111,7 +111,16 @@ Not Detected | False Negative | True Negative
 
 2.7 Creating Abstract Analytics
 
+* Creating an Abstract Analytic
+* Local Scheduling Hypothesis to Abstract Analytic
+* Remote Scheduling Hypothesis to Abstract Analytic
+
 2.8 Leveraging External Resources
+
+* Using Publicly Available Analytics
+* Publicly Available Analytics Repositories
+* Finding Analytics
+* Evaluating Analytics
 
 ## 3. Determine Data Requirements
 

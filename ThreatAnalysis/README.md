@@ -10,6 +10,8 @@
 
 ## 3. Basics of Threat Analysis - Day 3: Advanced Network Security
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/AdvancedNetworkSecurity.md)
+
 ## 4. Basics of Threat Analysis - Day 4: Audit and IT Fundamentals
 
 ## 5. Basics of Threat Analysis - Day 5: ICS/SCADA Security

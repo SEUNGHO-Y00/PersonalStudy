@@ -1,5 +1,9 @@
 # Cyber Security Study Websites
 
+## Nextwork.org
+
+* [Nextwork Project](https://learn.nextwork.org/)
+
 ## ANTISYPHON TRAINING
 
 * [Antisyphon](https://www.antisyphontraining.com/)

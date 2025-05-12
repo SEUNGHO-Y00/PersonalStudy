@@ -14,6 +14,10 @@
 * [MAD20 Tech](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/MAD20Tech/README.md)
 * [Basics of Threat Analysis](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/README.md)
 
+### Resource
+
+* [Microsoft Sentinel and Microsoft 365 Defender](https://github.com/azure/azure-sentinel)
+
 ## Python for Networking
 
 * [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)

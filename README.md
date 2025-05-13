@@ -12,8 +12,11 @@
 
 * [Advanced Intrusion Detection](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/AdvanceIntrusionDetection/README.md)
 * [MAD20 Tech](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/MAD20Tech/README.md)
+  - Threat Hunting & Detection Engineering Course
+  - Cyber Threat Intelligence course
 * [Basics of Threat Analysis](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/README.md)
 * [HackerSploit](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/HackerSploit/README.md)
+  - Malware Analysis
 
 ### Resource
 

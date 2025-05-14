@@ -21,6 +21,9 @@
 ### Resource
 
 * [Microsoft Sentinel and Microsoft 365 Defender](https://github.com/azure/azure-sentinel)
+* [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
+* [Splunk Attack Range ⚔️](https://github.com/splunk/attack_range)
+* [attack_data](https://github.com/splunk/attack_data)
 
 ## Python for Networking
 

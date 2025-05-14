@@ -22,6 +22,8 @@
 
 ## 8. Basics of Threat Analysis - Day 8: Cryptography and Security
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/Cryptography.md)
+
 ## 9. Basics of Threat Analysis - Day 9: Incident Response
 
 ## 10. Basics of Threat Analysis - Day 10: Ethical Hacking and Threat Modeling

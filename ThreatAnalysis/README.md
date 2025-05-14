@@ -26,5 +26,7 @@
 
 ## 9. Basics of Threat Analysis - Day 9: Incident Response
 
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatAnalysis/IncidentResponse.md)
+
 ## 10. Basics of Threat Analysis - Day 10: Ethical Hacking and Threat Modeling
 

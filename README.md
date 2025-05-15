@@ -24,6 +24,7 @@
 * [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
 * [Splunk Attack Range ⚔️](https://github.com/splunk/attack_range)
 * [attack_data](https://github.com/splunk/attack_data)
+* [detection-engineering-maturity-matrix](https://github.com/k-bailey/detection-engineering-maturity-matrix)
 
 ## Python for Networking
 

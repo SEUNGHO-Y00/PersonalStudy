@@ -97,6 +97,9 @@
 
 1. Introduction to Wireshark
 
+* [malware samples](https://www.malware-traffic-analysis.net/)
+* [Publicly available PCAP files](https://www.netresec.com/?page=PcapFiles)
+
 2. Features of Wireshark
 
 3. IP Demo

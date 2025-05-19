@@ -156,5 +156,10 @@
 
 7. Internet Resources Demo (Part 1)
 
+* [ICANN WHOIS](https://lookup.icann.org/en)
+* [Virus Total](https://www.virustotal.com/gui/home/upload)
+
 8. Internet Resources Demo (Part 2)
+
+* [Hybrid Analysis](https://hybrid-analysis.com/)
 

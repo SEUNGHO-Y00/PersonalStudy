@@ -120,15 +120,41 @@
 
 11. IRC Demo
 
+* IRC (Internet Relay Chat) is a decentralized, text-based chat system that allows users to communicate in group channels (like a chat room) or one-on-one through private messages.
+
 12. SMTP Demo
 
 13. SSH Demo
 
 14. TFTP Demo
 
-15. Hands-On Traffic Analysis in Wireshark
-
 ## 10. Alternatives to Wireshark
 
+1. Network Mapper Demo
+
+* [NetworkMiner](https://www.netresec.com/?page=NetworkMiner)
+
+2. Terminal Shark Demo
+
+3. CloudShark Demo
+
+* [CloudShark Github](https://github.com/cloudshark/wireshark-plugin)
+
 ## 11. Network Traffic Intelligence Collection
+
+1. Intelligence Collection
+
+2. Network Mapping Demo
+
+3. Content Deobfuscation Demo
+
+4. Credential Capture Demo
+
+5. TLS Decryption Demo
+
+6. Web Proxy Demo
+
+7. Internet Resources Demo (Part 1)
+
+8. Internet Resources Demo (Part 2)
 

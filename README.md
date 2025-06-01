@@ -1,5 +1,10 @@
 # Personal Study
 
+## Study Website
+
+* [Cyber Security Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
+* [Free Colleges Courses](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/FreeCollegesCourses.md)
+
 ## Web Hacking Class
 
 * Basic Fundamental = How to develop a website, and learn what kinds of web application hacking skills are needed for ethical hacking
@@ -37,11 +42,6 @@
 ## SANS Summit
 
 * [SANS Summit Participation](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SANSsummit.md)
-
-## Study Website
-
-* [Cyber Security Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
-* [Free Colleges Courses](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/FreeCollegesCourses.md)
 
 ## Cyber Security Job Resource
 

@@ -39,9 +39,9 @@
 
 * [SANS Summit Participation](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SANSsummit.md)
 
-## Cyber Security Study Website
+## Study Website
 
-* [Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
+* [Cyber Security Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
 
 ## Cyber Security Job Resource
 

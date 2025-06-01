@@ -1,5 +1,9 @@
 # Cyber Security Study Websites
 
+## APIsec
+
+* [APIsec](https://www.apisec.ai/apisec-university)
+
 ## Nextwork.org
 
 * [Nextwork Project](https://learn.nextwork.org/)

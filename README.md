@@ -3,7 +3,6 @@
 ## Web Hacking Class
 
 * Basic Fundamental = How to develop a website, and learn what kinds of web application hacking skills are needed for ethical hacking
-  
 * [Segfault Academy](https://academy.segfaulthub.com/)
 * [Seffault Academy Cafe](https://cafe.naver.com/officialsegfault)
 * [Web Hacking Class Study and Resources](https://github.com/SEUNGHO-Y00/Web-Hacking-Class)

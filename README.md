@@ -30,6 +30,7 @@
 * [attack_data](https://github.com/splunk/attack_data)
 * [detection-engineering-maturity-matrix](https://github.com/k-bailey/detection-engineering-maturity-matrix)
 * [Adaz: Active Directory Hunting Lab in Azure](https://github.com/christophetd/Adaz)
+* [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
 ## Python for Networking
 

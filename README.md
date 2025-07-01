@@ -4,6 +4,7 @@
 
 * [Cyber Security Study Website](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberSecurityStudyWebsites.md)
 * [Free Colleges Courses](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/FreeCollegesCourses.md)
+* [Code Practice](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CodePractice.md)
 
 ## Web Hacking Class
 

@@ -5,3 +5,5 @@
 ### Easy Questions
 
 1. Merge Sorted Array
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/MergeSortedArray.md)

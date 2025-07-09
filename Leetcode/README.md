@@ -7,3 +7,7 @@
 1. Merge Sorted Array
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/MergeSortedArray.md)
+
+2. Remove Element
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/RemoveElement.md)

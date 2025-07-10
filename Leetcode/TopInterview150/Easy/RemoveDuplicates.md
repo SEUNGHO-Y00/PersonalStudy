@@ -25,3 +25,14 @@
 
         return k + 1 # return unique lements
 ```
+
+## The other Answer
+
+```python
+        i=0
+        for j in range(0,len(nums)):     
+            if(nums[j]!=nums[i]):
+                nums[i+1]=nums[j]
+                i+=1
+        return i+1       
+```

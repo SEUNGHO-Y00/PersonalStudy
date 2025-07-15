@@ -10,7 +10,7 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. Yo
 
 ```python
 def majorityElement(self, nums: List[int]) -> int:
-    nums.sort()
-    n = len(nums)
+    nums.sort() 
+    n = len(nums) # Once the array is sorted, the majority element will always be present at index n/2
     return nums[n//2]
 ```

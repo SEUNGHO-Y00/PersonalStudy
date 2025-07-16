@@ -27,3 +27,7 @@
 6. Roman To Int
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/RomantoInteger.md)
+
+7. Length of Last Word
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/LengthofLastWord.md)

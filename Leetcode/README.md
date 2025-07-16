@@ -19,3 +19,7 @@
 4. Majority Element
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/MajorityElement.md)
+
+5. Best Time to Buy and Sell Stock
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/SellStock.md)

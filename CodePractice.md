@@ -26,7 +26,7 @@
 
 * [WebSite](https://neuraprep.com/questions/)
 
-### Hackerrank
+### HackerRank
 
 * [WebSite](https://www.hackerrank.com/domains/ai/machine-learning/page/1)
 

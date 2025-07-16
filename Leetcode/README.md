@@ -31,3 +31,7 @@
 7. Length of Last Word
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/LengthofLastWord.md)
+
+8. Longest Common Prefix
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/LongestCommonPrefix.md)

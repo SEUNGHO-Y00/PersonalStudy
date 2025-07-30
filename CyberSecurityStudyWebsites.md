@@ -20,6 +20,10 @@
 
 * [FedVTE](https://niccs.cisa.gov/education-training/federal-virtual-training-environment-fedvte)
 
+## Courestack
+
+* [Courestack](https://redteamleaders.coursestack.com/catalog)
+
 ## Hackerone
 
 * [Hackerone](https://www.hackerone.com/)

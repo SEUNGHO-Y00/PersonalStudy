@@ -38,3 +38,12 @@
 
 * [Azure Container Registry service tiers](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus)
 * [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+
+## 3. Configure a container app in Azure Container Apps
+
+## 4. Configure continuous deployment for container apps
+
+## 5. Scale and manage deployed container apps
+
+## 6. Guided project - Deploy and manage a container app using Azure Container Apps
+

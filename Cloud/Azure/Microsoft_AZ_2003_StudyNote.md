@@ -16,4 +16,7 @@
   - Storage
   - Containers
 
+* [Azure Container Registry service tiers](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-skus)
+* [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+
 ## 2. Configure Azure Container Registry for container app deployments

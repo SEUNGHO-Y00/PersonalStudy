@@ -17,6 +17,10 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/README.md)
 
+## SOC
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/README.md)
+
 ## Threat Intelligence
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatIntelligence/README.md)

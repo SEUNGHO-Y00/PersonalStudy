@@ -8,6 +8,10 @@
 
 * [APIsec](https://www.apisec.ai/apisec-university)
 
+## KC7
+
+* [A Cyber Detactive Game](https://kc7cyber.com/go/TITAN)
+
 ## Nextwork.org
 
 * [Nextwork Project](https://learn.nextwork.org/)
@@ -23,6 +27,15 @@
 ## Courestack
 
 * [Courestack](https://redteamleaders.coursestack.com/catalog)
+
+## MineCraft
+
+* [CYBER DEFENDER](https://education.minecraft.net/en-us/lessons/cyber-defender)
+* [CYBER EXPERT (AGES 13-18)](https://education.minecraft.net/en-us/discover/cyber-and-digital-safety/cyber-expert)
+
+## Try Cyber
+
+* [Try Cyber](https://trycyber.us/)
 
 ## Hackerone
 

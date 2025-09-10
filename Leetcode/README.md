@@ -42,4 +42,8 @@
 
 10. Is Subsequence
 
-* [Sutdy Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/IsSubsequence.md)
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/IsSubsequence.md)
+
+11. Ransom Note
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/TopInterview150/Easy/RansomNote.md)

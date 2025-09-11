@@ -10,7 +10,7 @@
 
 ## KC7
 
-* [A Cyber Detactive Game](https://kc7cyber.com/go/TITAN)
+* [A Cyber Detactive Game](https://kc7cyber.com/)
 
 ## Nextwork.org
 

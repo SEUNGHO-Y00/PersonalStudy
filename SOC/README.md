@@ -1,7 +1,12 @@
 # SOC
 
 * [KC7](https://kc7cyber.com/)
-  - [Study Note of Frognado in Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/Frognado_in_Valdoria_Part2.md)
+  - [A_Rap_Beef](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/A_Rap_Beef.md)
+  - [A_Scandal_in_Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/A_Scandal_in_Valdoria.md)
+  - [Frognado in Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/Frognado_in_Valdoria.md)
+  - [Valdoria Votes](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Valdoria_Votes.md)
+  - [Jojo's Hospital](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Jojo's_Hospital.md)
+  - [Cowboy Couture](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Cowboy_Couture.md)
 
 * [Cyber Career Pathways Tool](https://niccs.cisa.gov/tools/cyber-career-pathways-tool)
 

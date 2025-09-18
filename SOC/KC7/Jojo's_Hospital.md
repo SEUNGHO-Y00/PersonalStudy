@@ -1,4 +1,6 @@
-Jojo's Hospital
+# Jojo's Hospital
+
+This analyst completed the JoJo's Hospital module, investigating a cyber attack involving an Initial Access Broker and a Ransomware-as-a-Service (RaaS) operation. They demonstrated skills in detecting phishing and malvertising tactics, tracing unauthorized network access, understanding hacker collaboration, and analyzing ransomware activities.
 
 ```KQL
 FileCreationEvents

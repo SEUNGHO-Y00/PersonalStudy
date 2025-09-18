@@ -1,5 +1,7 @@
 # Titan Shield (with Microsoft Defender XDR)
 
+This analyst successfully investigated two highly sophisticated cyberattacks against TitanShield’s sensitive projects, demonstrating advanced investigative skills in identifying social engineering tactics, malicious file execution, and data exfiltration strategies. Using Kusto Query Language (KQL), they unraveled Moonstone Sleet's phishing campaign targeting Project Omega and Crimson Sandstorm’s romance scheme aimed at harvesting critical system and user information. This exercise reinforced skills in threat actor profiling, recognizing social engineering-based reconnaissance on social media, and assessing the broader security implications of protecting intellectual property in a high-stakes defense context.
+
 ```KQL
 Employees
 | where name == "James Douglas"

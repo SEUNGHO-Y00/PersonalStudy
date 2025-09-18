@@ -1,5 +1,7 @@
 # A Scandal in Valdoria
 
+This analyst investigated an email phishing attack in Valdoria that uncovered a politically motivated influence campaign. Using Kusto Query Language (KQL), they analyzed employee roles, email communications, and computer process events, revealing evidence of data exfiltration and manipulation. This exercise reinforced skill in querying data and understanding data integrity within a cybersecurity context.
+
 ```KQL
 Employees
 | take 10

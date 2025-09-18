@@ -1,6 +1,6 @@
 # Frognado in Valdoria
 
-* [Resource](https://medium.com/@Abdalla116/kql-kc7-frognado-in-valdoria-part-2-13556e01adfb)
+This analyst successfully investigated a hacktivist intrusion on FramtidX system. Through their use of Kusto Query Language (KQL), they discovered how the intruders managed to deface the company’s website and internal documents. They followed the activities of the threat actor, from reconnaissance to exfiltration, and uncovered the use of an internal account to further their compromise.
 
 ```KQL
 Employees

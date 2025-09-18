@@ -1,5 +1,7 @@
 # A Rap Beef (START HERE)
 
+This analyst investigated a themed scenario involving rival hip-hop artists. They used key cybersecurity skills to identify suspicious communications and activities, analyzing internal messages to track unauthorized exchanges and uncover patterns. This exercise reinforced critical skills in data analysis, threat detection, and the application of cybersecurity principles in unconventional contexts.
+
 ```KQL
 Employees
 | where role == "CEO"

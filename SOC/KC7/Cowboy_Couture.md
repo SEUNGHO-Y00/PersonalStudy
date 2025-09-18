@@ -1,5 +1,7 @@
 # Cowboy Couture
 
+This analyst completed the "Celestial Cowboy Couture" module, where they investigated a targeted phishing attack that resulted in data exfiltration and intellectual property theft. They demonstrated proficiency in using Kusto Query Language (KQL) to trace the attack, analyzing network traffic and credential misuse. The investigation involved connecting threat actor tactics, including the exploitation of an employee’s LinkedIn post to craft a convincing phishing email. By uncovering the full attack chain, the analyst successfully identified the real culprit and restored the company’s reputation.
+
 ```KQL
 Employees
 | where role == "Director of Happiness"

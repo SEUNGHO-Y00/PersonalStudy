@@ -8,6 +8,7 @@
   - [Titan_Shield](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Titan_Shield.md)
   - [Jojo's Hospital](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Jojo's_Hospital.md)
   - [Cowboy Couture](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Cowboy_Couture.md)
+  - [KQL 101](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/KQL_101.md)
 
 * [Cyber Career Pathways Tool](https://niccs.cisa.gov/tools/cyber-career-pathways-tool)
 

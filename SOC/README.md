@@ -11,6 +11,8 @@
   - [KQL 101](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/KQL_101.md)
   - [Solvi Systems](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Solvi_Systems.md)
 
+* [Cyber Chief](https://gchq.github.io/CyberChef/)
+
 * [Cyber Career Pathways Tool](https://niccs.cisa.gov/tools/cyber-career-pathways-tool)
 
 * [Empowering Careers in Cybersecurity](https://www.cyberseek.org/index.html)

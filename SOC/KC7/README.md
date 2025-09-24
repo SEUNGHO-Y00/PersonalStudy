@@ -1,3 +1,7 @@
+* [KC7 Progress](http://kc7cyber.com/profile/Seungho)
+
+* [Cyber Chief](https://gchq.github.io/CyberChef/)
+
 * Easy
   - [A_Rap_Beef](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/A_Rap_Beef.md)
   - [A_Scandal_in_Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/A_Scandal_in_Valdoria.md)

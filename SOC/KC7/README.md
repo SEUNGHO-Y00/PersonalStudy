@@ -13,5 +13,6 @@
   - [Solvi Systems](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Solvi_Systems.md)
  
 * Moderate
-  - [AzureCrest](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/AzureCrest.md)
   - [Frognado in Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Frognado_in_Valdoria.md)
+  - [AzureCrest](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/AzureCrest.md)
+

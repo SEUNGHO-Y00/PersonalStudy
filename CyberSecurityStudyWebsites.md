@@ -1,5 +1,13 @@
 # Cyber Security Study Websites
 
+## Portswigger
+
+* [web application security](https://portswigger.net/)
+
+## KC7
+
+* [A Cyber Detactive Game](https://kc7cyber.com/)
+
 ## PCTE (Military Access)
 
 * [Persistent Cyber Training Environment (PCTE)](https://portal.pcte.mil/)
@@ -7,10 +15,6 @@
 ## APIsec
 
 * [APIsec](https://www.apisec.ai/apisec-university)
-
-## KC7
-
-* [A Cyber Detactive Game](https://kc7cyber.com/)
 
 ## Nextwork.org
 

@@ -1,12 +1,16 @@
 # Cyber Security Study Websites
 
-## Portswigger
-
-* [web application security](https://portswigger.net/)
-
 ## KC7
 
 * [A Cyber Detactive Game](https://kc7cyber.com/)
+
+## Courestack
+
+* [Courestack](https://redteamleaders.coursestack.com/catalog)
+
+## Portswigger
+
+* [web application security](https://portswigger.net/)
 
 ## Bugbountyhunter
 
@@ -31,10 +35,6 @@
 ## Federal Virtual Training Environment
 
 * [FedVTE](https://niccs.cisa.gov/education-training/federal-virtual-training-environment-fedvte)
-
-## Courestack
-
-* [Courestack](https://redteamleaders.coursestack.com/catalog)
 
 ## MineCraft
 

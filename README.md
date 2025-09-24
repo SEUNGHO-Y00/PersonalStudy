@@ -6,6 +6,14 @@
 * [Free Colleges Courses](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/FreeCollegesCourses.md)
 * [Code Practice](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CodePractice.md)
 
+## SOC
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/README.md)
+
+## Python for Security
+
+* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
+
 ## Web Hacking Class
 
 * Basic Fundamental = How to develop a website, and learn what kinds of web application hacking skills are needed for ethical hacking
@@ -17,17 +25,9 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/Leetcode/README.md)
 
-## SOC
-
-* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/README.md)
-
 ## Threat Intelligence
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatIntelligence/README.md)
-
-## Python for Security
-
-* [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 
 ## Cloud Certification
 

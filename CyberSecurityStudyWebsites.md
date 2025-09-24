@@ -8,6 +8,10 @@
 
 * [A Cyber Detactive Game](https://kc7cyber.com/)
 
+## Bugbountyhunter
+
+* [A bug bounty training platform](https://www.bugbountyhunter.com/)
+
 ## PCTE (Military Access)
 
 * [Persistent Cyber Training Environment (PCTE)](https://portal.pcte.mil/)

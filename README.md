@@ -25,7 +25,7 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatIntelligence/README.md)
 
-## Python for Networking
+## Python for Security
 
 * [Python Networking](https://github.com/SEUNGHO-Y00/PythonforNetworking/blob/main/README.md)
 

@@ -110,3 +110,75 @@ def benchmark_join(num_lines: int):
         lines.append(f"Line {i}\n")
     return "".join(lines)
 ```
+
+## 1.3 Core Data Structures Exercises
+1. Port Collation
+* Read a file of ip:port pairs, output a dict mapping each ip to a sorted list of unique ports.
+
+```python
+def collate_ports_by_ip(filepath):
+    """
+    Reads a file with 'ip:port' pairs, returning a dictionary mapping each
+    IP to a sorted list of unique ports.
+    """
+    ip_ports = {}
+    try:
+        with open(filepath, 'r') as file:
+            for line in file:
+                line = line.strip()
+                if line:
+                    parts = line.split(':')
+                    if len(parts) == 2:
+                        ip, port = parts[0], parts[1]
+                        try:
+                            port = int(port)
+                            if ip not in ip_ports:
+                                ip_ports[ip] = set()
+                            ip_ports[ip].add(port)
+                        except ValueError:
+                            # Skip lines with invalid port numbers
+                            continue
+    except FileNotFoundError:
+        print(f"Error: The file at {filepath} was not found.")
+        return None
+```
+
+2. Set Difference Performance
+* Benchmark (time.perf_counter) deduplication of two million random URLs using a set versus list membership checks.
+
+```python
+import time
+import random
+import uuid
+
+# Generate a large dataset of unique URLs
+def generate_urls(count):
+    return [f"http://example.com/{uuid.uuid4()}" for _ in range(count)]
+
+num_urls = 2_000_000
+urls_a = generate_urls(num_urls)
+urls_b = generate_urls(num_urls // 2)
+
+# Create a scenario where we want to find URLs in list_a that are not in list_b
+urls_to_remove = random.sample(urls_a, num_urls // 4)
+urls_b.extend(urls_to_remove)
+random.shuffle(urls_b)
+
+# Benchmark using set difference
+start_time = time.perf_counter()
+set_a = set(urls_a)
+set_b = set(urls_b)
+result_set = set_a - set_b
+end_time = time.perf_counter()
+set_duration = end_time - start_time
+print(f"Set difference benchmark: {set_duration:.6f} seconds")
+```
+
+3. Immutable Config Key
+* Build a frozenset of (host, port, protocol) triples and use it as keys in a dict that stores timeout values.
+
+4. Defaultdict Graph
+* Implement an undirected graph of internal hosts where each node’s adjacency list is maintained by defaultdict(set). Write add_edge(a, b) and has_path(a, b) using BFS.
+
+5. Deep Copy Pitfall
+* Show how shallow copying a list of bytearray payloads leads to unwanted mutation, then correct it using copy.deepcopy.

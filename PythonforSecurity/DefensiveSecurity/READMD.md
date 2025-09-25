@@ -2,16 +2,28 @@
 
 ## Module 1 - Python Fundamentals
 1.1 - Introduction to Python
+
 1.2 - Basic Data Types (Deep Dive)
-1.2.1 - Basic Data Types (Codes)
+
+  1.2.1 - Basic Data Types (Codes)
+
 1.3 - Core Data Structures
+
 1.4 - Control Flow (Deep Dive)
+
 1.5 - Functions
+
 1.6 - Modules and Packages
+
 1.7 - File Handling
+
 1.8 - Exception Handling
+
 1.9 - Writing “Pythonic” Code and Style Guidelines
+
 1.10 - Object-Oriented Programming (OOP)
+
+
 
 ## Module 2 – Automating Security Tasks with Python
 2.1 - Working with Operating System Commands

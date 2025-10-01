@@ -71,6 +71,17 @@
 * [Bandit Wargame](https://overthewire.org/wargames/bandit/)
 
 ---
+# Github
+
+https://github.com/0xrajneesh/
+
+https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering
+
+https://github.com/lakshay1341/Password-Manager
+
+https://github.com/CyberSecurityUP/n8n-CyberSecurity-Workflows
+
+---
 
 🚀 Break Into Cybersecurity - No Experience Required! 🔐
 

@@ -15,4 +15,5 @@
 * Moderate
   - [Frognado in Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Frognado_in_Valdoria.md)
   - [AzureCrest](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/AzureCrest.md)
+  - [Castle % Sand](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Castle%26Sand.md)
 

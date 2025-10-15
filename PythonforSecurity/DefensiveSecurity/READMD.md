@@ -1,5 +1,7 @@
 # Python for Defensive Security
 
+* [Resource](https://redteamleaders.coursestack.com/courses/112c82c5-933f-4a83-8bca-8c825b905309)
+
 ## Module 1 - Python Fundamentals
 1.1 - Introduction to Python
 

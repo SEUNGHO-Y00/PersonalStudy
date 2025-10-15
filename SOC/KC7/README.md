@@ -11,6 +11,7 @@
   - [Cowboy Couture](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Cowboy_Couture.md)
   - [KQL 101](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/KQL_101.md)
   - [Solvi Systems](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Solvi_Systems.md)
+  - [Clout Defender](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/CloutDefender.md)
  
 * Moderate
   - [Frognado in Valdoria](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/Frognado_in_Valdoria.md)

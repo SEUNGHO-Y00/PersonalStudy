@@ -295,3 +295,34 @@ print(f"Original payloads (after deep copy): {original_payloads_fixed}")
 print(f"Deep copy payloads: {deep_copied_payloads}")
 # The change to the deep copy does not affect the original list
 ```
+
+## 1.4 - Control Flow (Deep Dive)
+
+1. FizzBuzz with Assignment Expression
+Write a function fizzbuzz(n) that prints numbers 1…n, substituting “Fizz”, “Buzz”, or “FizzBuzz” using a single for loop.
+
+```python
+def fizzbuzz(n):
+    for i in range(1, n + 1):
+        # Use an assignment expression to build the output string
+        if s := (not i % 3) * "Fizz" + (not i % 5) * "Buzz":
+            print(s)
+        else:
+            print(i)
+
+# Example Usage:
+print("FizzBuzz up to 20:")
+fizzbuzz(20)
+```
+
+2. Find First Duplicate
+Implement first_duplicate(seq) that returns the first value that appears twice, using a for/else construct.
+
+3. Sentinel File Reader
+Read lines from a file until a line containing only STOP\n is found; count how many non-empty lines were read.
+
+4. Cartesian Product Comprehension
+Given two lists of numbers, create a list of (a, b, a*b) tuples for every combination where a*b is even.
+
+5. Pattern-Match Calculator
+Accept strings like "ADD 4 5" or "MUL 3 9". Use match … case to parse and compute the result.

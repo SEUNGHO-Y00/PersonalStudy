@@ -28,6 +28,10 @@
 
 * [Nextwork Project](https://learn.nextwork.org/)
 
+## hacksmarter
+
+* [hacksmarter](https://www.hacksmarter.org/catalog)
+
 ## ANTISYPHON TRAINING
 
 * [Antisyphon](https://www.antisyphontraining.com/)

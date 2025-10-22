@@ -296,7 +296,7 @@ print(f"Deep copy payloads: {deep_copied_payloads}")
 # The change to the deep copy does not affect the original list
 ```
 
-## 1.4 - Control Flow (Deep Dive)
+## 1.4 - Control Flow (Deep Dive) Exercise
 
 1. FizzBuzz with Assignment Expression
 Write a function fizzbuzz(n) that prints numbers 1…n, substituting “Fizz”, “Buzz”, or “FizzBuzz” using a single for loop.

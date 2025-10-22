@@ -12,7 +12,8 @@
 
 ## Python for Security
 
-* [Python Networking](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/Networking/README.md)
+* [Python for Defence Security](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/READMD.md)
+* [Python for Networking](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/Networking/README.md)
 
 ## Web Hacking Class
 

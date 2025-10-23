@@ -1,5 +1,7 @@
 * [KC7 Progress](http://kc7cyber.com/profile/Seungho)
 
+* [KC7 Training Guide Github](https://github.com/KC7-Foundation/kc7_data/tree/main)
+
 * [Cyber Chief](https://gchq.github.io/CyberChef/)
 
 * [virustotal](https://www.virustotal.com/gui/home/search)

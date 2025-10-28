@@ -87,6 +87,29 @@ https://github.com/CyberSecurityUP/n8n-CyberSecurity-Workflows
 
 ---
 
+𝐅𝐫𝐞𝐞 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐨𝐧 𝐒𝐎𝐂 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐥𝐚𝐢𝐦 𝐓𝐨𝐝𝐚𝐲
+
+1️⃣Splunk – Fundamentals 1 (SOC focus)
+🔗 [https://lnkd.in/gvqGrm8g](https://www.splunk.com/en_us/training/free-courses/overview.html)
+Master Splunk for security monitoring, data analysis, and threat detection.
+
+2️⃣ Cisco – SOC Analyst (CCST)
+🔗 [https://lnkd.in/gZ8nc2FR](https://www.netacad.com/career-paths/cybersecurity?courseLang=en-US)
+Get a strong foundation in cybersecurity operations with a Cisco-backed certification.
+
+3️⃣ TryHackMe – SOC Level 1
+🔗 [https://lnkd.in/gnKNzjnh](https://tryhackme.com/path/outline/soclevel1)
+Hands-on labs and exercises to practice real-world SOC analyst tasks.
+
+4️⃣ LetsDefend – SOC Analyst Path
+🔗 [https://lnkd.in/gj6W7uEe](https://app.letsdefend.io/path/soc-analyst-learning-path)
+Step-by-step learning path covering SOC workflows, detection, and response.
+
+5️⃣ Coursera – Security Operations Center (SOC) Fundamentals
+🔗 [https://lnkd.in/gCJQVC-s](https://www.coursera.org/learn/security-operations-center-soc)
+Learn the basics of SOC operations, threat monitoring, and incident response.
+
+
 🚀 Break Into Cybersecurity - No Experience Required! 🔐
 
 Looking to gain hands-on experience and build in-demand skills in Cybersecurity? Whether you’re a beginner or transitioning into the field, these FREE virtual internships & job simulations will help you level up.
@@ -97,7 +120,7 @@ Looking to gain hands-on experience and build in-demand skills in Cybersecurity?
 𝗟𝗶𝗻𝗸: https://lnkd.in/ddZSGGFE
 
 ➡️ 𝗠𝗮𝘀𝘁𝗲𝗿𝗰𝗮𝗿𝗱 𝗖𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗩𝗶𝗿𝘁𝘂𝗮𝗹 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲: Identify and prevent security risks with the Security Awareness Team. 
-𝗟𝗶𝗻𝗸: https://lnkd.in/dYmggPpU
+𝗟𝗶𝗻𝗸: [https://lnkd.in/dYmggPpU](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
 
 ➡️ 𝗧𝗔𝗧𝗔 𝗖𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 (𝗜𝗔𝗠-𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿) 𝗝𝗼𝗯 𝗦𝗶𝗺𝘂𝗹𝗮𝘁𝗶𝗼𝗻: Assist the cybersecurity consulting team to enhance a client’s digital defences. 
 𝗟𝗶𝗻𝗸: https://lnkd.in/dRbAt-Y3

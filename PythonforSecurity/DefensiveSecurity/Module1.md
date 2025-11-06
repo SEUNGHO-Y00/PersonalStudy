@@ -828,6 +828,7 @@ if __name__ == "__main__":
     main()
 ```
 ```toml
+# pyproject.toml
 [project]
 name = "simple-echo-cli"
 version = "0.1.0"

@@ -1300,6 +1300,10 @@ except Exception as e:
 ```
 
 4. Exception Group Splitter (>=3.11)
-Launch three coroutines that intentionally raise different exceptions. Catch the resulting ExceptionGroup and handle each exception type separately with except*.
+* Launch three coroutines that intentionally raise different exceptions. Catch the resulting ExceptionGroup and handle each exception type separately with except*.
+
+```python
+
+```
 Traceback Formatter
 Use the traceback module to write a function format_exception(e) that returns a coloured, one-line traceback string for logging.

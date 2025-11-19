@@ -1303,7 +1303,84 @@ except Exception as e:
 * Launch three coroutines that intentionally raise different exceptions. Catch the resulting ExceptionGroup and handle each exception type separately with except*.
 
 ```python
+import asyncio
 
+async def task_a():
+    print("Task A starting...")
+    await asyncio.sleep(0.1)
+    raise ValueError("Error in Task A!")
+
+async def task_b():
+    print("Task B starting...")
+    await asyncio.sleep(0.2)
+    raise ConnectionError("Error in Task B!")
+
+async def main_exception_group():
+    print("Running tasks concurrently...")
+    try:
+        # Create an ExceptionGroup containing exceptions from both tasks
+        await asyncio.gather(task_a(), task_b())
+    except* ValueError as e_val:
+        # Handle all ValueError instances in the group
+        print(f"\n--- Handled ValueErrors: {e_val.exceptions} ---")
+    except* ConnectionError as e_conn:
+        # Handle all ConnectionError instances in the group
+        print(f"\n--- Handled ConnectionErrors: {e_conn.exceptions} ---")
+
+# Run the main coroutine
+if __name__ == "__main__":
+    try:
+        asyncio.run(main_exception_group())
+    except ExceptionGroup as eg:
+        # If an unhandled type bubbles up, it's still an ExceptionGroup
+        print(f"\nAn unhandled exception group was raised: {eg}")
 ```
-Traceback Formatter
-Use the traceback module to write a function format_exception(e) that returns a coloured, one-line traceback string for logging.
+
+5. Traceback Formatter
+* Use the traceback module to write a function format_exception(e) that returns a coloured, one-line traceback string for logging.
+
+```python
+import traceback
+import sys
+
+# Define simple ANSI color codes for display
+class Color:
+    RED = '\033[91m'
+    YELLOW = '\033[93m'
+    ENDC = '\033[0m'
+
+def format_exception_oneline(e):
+    """
+    Formats an exception and its traceback into a colored, one-line string.
+    """
+    # Extract the traceback information up to the call site of this function
+    exc_type, exc_value, exc_traceback = sys.exc_info()
+    if exc_traceback is None:
+        return f"{Color.RED}Exception: {type(e).__name__}: {e}{Color.ENDC}"
+
+    # Format the stack frames into a list of strings
+    stack_summary = traceback.extract_tb(exc_traceback)
+    
+    # Get the last (most recent) frame
+    last_frame = stack_summary[-1]
+
+    # Format a concise message
+    return (
+        f"{Color.RED}ERROR{Color.ENDC} in {Color.YELLOW}{last_frame.filename}:{last_frame.lineno}{Color.ENDC} "
+        f"('{last_frame.line.strip()}'): {type(e).__name__}: {e}"
+    )
+
+# Example Usage:
+def risky_operation():
+    a = 10
+    b = 0
+    result = a / b # Raises ZeroDivisionError
+
+try:
+    risky_operation()
+except Exception as e:
+    # Pass the caught exception to our formatter
+    log_line = format_exception_oneline(e)
+    print("\nFormatted Log Output:")
+    print(log_line)
+```

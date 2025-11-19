@@ -25,3 +25,4 @@
   - [Envolve Labs](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/EnvolveLabs.md)
   - [Critical Compromise (ICS)](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/CriticalCompromise.md)
   - [HopsNStuff](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/HopsNStuff.md)
+  - [Turkey Bowl](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/SOC/KC7/TurkeyBowl.md)

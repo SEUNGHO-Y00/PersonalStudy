@@ -145,3 +145,39 @@ Looking to gain hands-on experience and build in-demand skills in Cybersecurity?
 
 ➡️ 𝗗𝗟𝗔 𝗣𝗜𝗣𝗘𝗥 𝗚𝗹𝗼𝗯𝗮𝗹 𝗖𝘆𝗯𝗲𝗿 𝘄𝗶𝘁𝗵 𝗗𝗮𝘁𝗮 𝗣𝗿𝗶𝘃𝗮𝗰𝘆: Protect data and navigate cybersecurity challenges as a junior team member with the Data Privacy and Cybersecurity team
 𝗟𝗶𝗻𝗸: https://lnkd.in/ddG9QF-8
+
+Getting Real SOC Experience Without a SOC Job 💻
+
+Everyone wants to get hands-on SOC (Security Operations Center) experience...
+
+ 🚀Google has launched 8 hashtag#FREE hands-on SOC courses that help you gain real-world blue team skills right from your desk.
+
+Here’s what you’ll learn 👇
+✅ Threat Detection
+✅ Incident Response
+✅ SIEM Rule Building
+✅ SOAR Playbook Automation
+✅ Real-world Labs & Simulations
+
+Start your hashtag#journey here:
+
+1️⃣ Fundamentals – https://lnkd.in/exvHk6h2
+
+2️⃣ Deep Dive – https://lnkd.in/e3kiJ93J
+
+3️⃣ Modern SecOps – https://lnkd.in/eWYR6tpc
+
+4️⃣ SIEM Practices – https://lnkd.in/e54vEMki
+
+5️⃣ SOAR Fundamentals – https://lnkd.in/euSH2QVi
+
+6️⃣ SIEM Rules – https://lnkd.in/ei6i5DPB
+
+7️⃣ SOAR Analyst – https://lnkd.in/enyrV4p7
+
+8️⃣ SOAR Developer – https://lnkd.in/ewTJiF68
+
+💡 Don’t rush all at once. Pick one course, practice it deeply, and simulate real SOC tasks.
+Skills grow through execution — not intention.
+
+⚠ Note: Always use these labs ethically and for learning purposes only. Never test tools or skills outside legal environments.

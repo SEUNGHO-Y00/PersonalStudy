@@ -30,8 +30,9 @@
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/ThreatIntelligence/README.md)
 
-## Cloud Certification
+## Cybersecurity Certification
 
+* [Cyber Security Certification Road Map](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CyberCertification.md)
 * [Cloud Security Road Map](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/CloudCertification.md)
 
 ## SANS Summit

@@ -74,6 +74,10 @@
 
 * [Bandit Wargame](https://overthewire.org/wargames/bandit/)
 
+## Automatic Detection
+
+* https://taggartinstitute.org/p/detection-with-sigma
+
 ---
 # Github
 

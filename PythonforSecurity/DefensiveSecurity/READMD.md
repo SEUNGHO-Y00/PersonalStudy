@@ -43,6 +43,8 @@
 
 2.7 - Data Handling and Output Generation
 
+* [StudyNote]()
+
 ## Module 3 – Log Analysis and Incident Detection
 3.1 - Log Normalization and Parsing
 3.2 - Detection of Suspicious Behavior

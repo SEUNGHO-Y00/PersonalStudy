@@ -28,12 +28,19 @@
 * [StudyNote](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module1.md)
 
 ## Module 2 – Automating Security Tasks with Python
+
 2.1 - Working with Operating System Commands
+
 2.2 - Automating Reconnaissance and Scanning with Python
+
 2.3 - Manual Port Scanning with Python Sockets
+
 2.4 - Interacting with APIs and External Services using Python
+
 2.5 - Filesystem Monitoring and Data Collection
+
 2.6 - Scheduling and Continuous Monitoring
+
 2.7 - Data Handling and Output Generation
 
 ## Module 3 – Log Analysis and Incident Detection

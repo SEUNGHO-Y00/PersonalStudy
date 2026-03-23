@@ -1,4 +1,4 @@
-# SolveMeFirst
+# Simple Array Sum
 
 ## Question
 

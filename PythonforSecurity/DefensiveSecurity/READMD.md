@@ -25,7 +25,7 @@
 
 1.10 - Object-Oriented Programming (OOP)
 
-* [StudyNote](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module1.md)
+* [StudyNote](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module1/README.md)
 
 ## Module 2 – Automating Security Tasks with Python
 

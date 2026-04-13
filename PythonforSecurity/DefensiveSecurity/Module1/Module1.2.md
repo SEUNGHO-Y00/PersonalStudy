@@ -1,4 +1,4 @@
-## 1.2 - Basic Data Types (Deep Dive) Exercises
+## 1.2 - Basic Data Types (Deep Dive)
 
 ### 1.2.1 Numeric Types
 

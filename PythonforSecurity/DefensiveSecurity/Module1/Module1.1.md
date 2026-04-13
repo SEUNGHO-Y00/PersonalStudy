@@ -1,6 +1,29 @@
 # Module 1 - Python Fundamentals Study Note
 
+## 1.1 - Introduction to Python
+
 ## 1.2 - Basic Data Types (Deep Dive) Exercises
+
+### 1.2.1 Numeric Types
+
+### 1.2.2 Text Data: str
+
+### 1.2.3 Byte-Oriented Types
+
+### 1.2.4 Boolean Context and Truthiness
+
+### 1.2.5 None
+
+### 1.2.6 Type Checking and Conversion
+
+### 1.2.7 Mutability and Identity
+
+### 1.2.8 Performance Considerations
+
+### 1.2.9 Security-Relevant Examples
+
+### 1.2.10 Exercises
+
 1. Endianness
 * Write a function int_to_little_endian(n, length) that converts any positive integer to a little-endian byte sequence of fixed length.
 

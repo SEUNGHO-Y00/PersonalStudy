@@ -8,6 +8,10 @@
 
 * [Courestack](https://redteamleaders.coursestack.com/catalog)
 
+## Splunk
+
+* [Free Splunk Course](https://www.splunk.com/en_us/training/course-catalog.html?sort=Newest&filters=filterGroup1FreeCourses)
+
 ## Portswigger
 
 * [web application security](https://portswigger.net/)

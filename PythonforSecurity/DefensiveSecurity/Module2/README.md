@@ -15,3 +15,7 @@
 ## 2.4 - Interacting with APIs and External Services using Python
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.4.md)
+
+## 2.5 - Filesystem Monitoring and Data Collection
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.5.md)

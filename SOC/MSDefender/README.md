@@ -12,9 +12,12 @@
 
 * [Guide](https://learn.microsoft.com/en-us/defender-endpoint/)
 
-## Microsoft Sentinel Training Lab
+## Microsoft Sentinel
 
-* [Github Guide](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/README.md)
+* [Training Lab Github Guide](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/README.md)
+* [RSAC 2026: New Microsoft Sentinel Connectors](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/rsac-2026-new-microsoft-sentinel-connectors-announcement/4503042)
+* [API Upload](https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api)
+
 
 ## SC-300-Identity-and-Access-Administrator
 
@@ -27,3 +30,4 @@
 ## Phishing investigation
 
 * [Guide](https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-phishing#system-requirements)
+

@@ -23,3 +23,7 @@
 ## Enabling Defender for Cloud at the Resource Level with PowerShell
 
 * [Resource](https://www.thatlazyadmin.com/2024/07/08/enabling-defender-for-cloud-at-the-resource-level-with-powershell/)
+
+## Phishing investigation
+
+* [Guide](https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-phishing#system-requirements)

@@ -31,3 +31,6 @@
 
 * [Guide](https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-phishing#system-requirements)
 
+## Threat detection in Microsoft Sentinel
+
+* [Guide](https://learn.microsoft.com/en-us/azure/sentinel/threat-detection?WT.mc_id=Portal-Microsoft_Azure_Security_Insights)

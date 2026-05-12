@@ -19,3 +19,7 @@
 ## 2.5 - Filesystem Monitoring and Data Collection
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.5.md)
+
+## 2.6 - Scheduling and Continuous Monitoring
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.6.md)

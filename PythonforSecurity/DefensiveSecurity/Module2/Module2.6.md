@@ -259,5 +259,164 @@ if __name__ == "__main__":
 ```
 
 5. Sends alert if a .php or .exe file is created
+
+```python
+# --- Updated Watchdog Event Handler ---
+class WebDirHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if not event.is_directory:
+            logging.info(f"FILE MODIFIED: {event.src_path}")
+
+    def on_created(self, event):
+        file_path = event.src_path
+        # Check for dangerous extensions
+        if file_path.lower().endswith(('.php', '.exe')):
+            logging.critical(f"SECURITY ALERT: Risky file created: {file_path}")
+            # print to console for immediate visibility if running manually
+            print(f"!!! SECURITY ALERT: {file_path} created !!!")
+        else:
+            logging.info(f"FILE CREATED: {file_path}")
+
+    def on_deleted(self, event):
+        logging.warning(f"FILE DELETED: {event.src_path}")
+```
+
 6. Add CLI interface to select --rebuild-baseline or --monitor-mode
+
+```python
+import argparse
+import json
+import logging
+import os
+import schedule
+import time
+from watchdog.events import FileSystemEventHandler
+from watchdog.observers import Observer
+
+# --- Configuration & Logging Setup ---
+LOG_FILE = 'monitoring.log'
+BASELINE_FILE = 'baseline.json'
+WATCH_PATH = "/var/www/"
+
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
+# --- CLI Action Functions ---
+def rebuild_baseline(target_dir=WATCH_PATH, output_file=BASELINE_FILE):
+    """Scans target directory and saves all current files to baseline.json."""
+    print(f"Scanning {target_dir} to rebuild baseline...")
+    if not os.path.exists(target_dir):
+        print(f"Error: Target directory '{target_dir}' does not exist.")
+        return
+
+    baseline_files = []
+    for root, _, files in os.walk(target_dir):
+        for file in files:
+            full_path = os.path.join(root, file)
+            baseline_files.append(full_path)
+
+    baseline_data = {"files_to_watch": baseline_files}
+
+    with open(output_file, 'w') as f:
+        json.dump(baseline_data, f, indent=4)
+
+    msg = f"Baseline successfully rebuilt with {len(baseline_files)} files."
+    print(msg)
+    logging.info(msg)
+
+
+def load_baseline(filepath=BASELINE_FILE):
+    try:
+        with open(filepath, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        logging.error(f"Failed to load baseline: {e}")
+        return {"files_to_watch": []}
+
+
+# --- Real-Time Monitoring (Watchdog) ---
+class WebDirHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if not event.is_directory:
+            logging.info(f"FILE MODIFIED: {event.src_path}")
+
+    def on_created(self, event):
+        file_path = event.src_path
+        if file_path.lower().endswith(('.php', '.exe')):
+            msg = f"SECURITY ALERT: Risky file created: {file_path}"
+            logging.critical(msg)
+            print(f"!!! {msg} !!!")
+        else:
+            logging.info(f"FILE CREATED: {file_path}")
+
+    def on_deleted(self, event):
+        logging.warning(f"FILE DELETED: {event.src_path}")
+
+
+# --- Scheduled Audit (Every 2 Hours) ---
+def scheduled_audit():
+    logging.info("--- STARTING 2-HOUR SCHEDULED AUDIT ---")
+    baseline = load_baseline()
+    files = baseline.get("files_to_watch", [])
+    
+    if not files:
+        logging.info("No baseline files specified for audit.")
+        return
+
+    for file_path in files:
+        if os.path.exists(file_path):
+            logging.info(f"AUDIT OK: {file_path} exists.")
+        else:
+            logging.critical(f"AUDIT FAIL: {file_path} is missing!")
+
+
+def start_monitoring():
+    """Initializes the scheduled loops and real-time file system watchers."""
+    event_handler = WebDirHandler()
+    observer = Observer()
+    observer.schedule(event_handler, WATCH_PATH, recursive=True)
+    observer.start()
+    logging.info(f"Watchdog started on {WATCH_PATH}")
+
+    schedule.every(2).hours.do(scheduled_audit)
+    scheduled_audit()  # Initial audit on startup
+
+    print(f"Monitoring Suite active on {WATCH_PATH}. Logging to {LOG_FILE}...")
+
+    try:
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        logging.info("Monitoring suite stopped by user.")
+        observer.stop()
+    
+    observer.join()
+
+
+# --- CLI Interface Definition ---
+def main():
+    parser = argparse.ArgumentParser(description="Python-based Security & Integrity Monitoring Suite")
+    
+    # Create a mutually exclusive group so the user must select exactly one mode
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('--rebuild-baseline', action='store_true', help='Scan /var/www/ and generate a new baseline.json file')
+    group.add_argument('--monitor-mode', action='store_true', help='Start the real-time watchdog and 2-hour scheduled audits')
+
+    args = parser.parse_args()
+
+    if args.rebuild_baseline:
+        rebuild_baseline()
+    elif args.monitor_mode:
+        start_monitoring()
+
+
+if __name__ == "__main__":
+    main()
+```
+
 7. Package it as a service using pyinstaller or systemd

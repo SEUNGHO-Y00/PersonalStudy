@@ -23,3 +23,7 @@
 ## 2.6 - Scheduling and Continuous Monitoring
 
 * [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.6.md)
+
+## 2.7 - Data Handling and Output Generation
+
+* [Study Note](https://github.com/SEUNGHO-Y00/PersonalStudy/blob/main/PythonforSecurity/DefensiveSecurity/Module2/Module2.7.md)

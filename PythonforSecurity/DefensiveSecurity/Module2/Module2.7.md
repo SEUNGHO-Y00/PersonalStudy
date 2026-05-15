@@ -112,6 +112,8 @@ logger.info("Transaction processed successfully", extra={"metadata": {"order_id"
 ```
 
 2. Use timestamps and UTC consistently
+
+
 3. Prefer structured formats (JSON > TXT)
 4. Use rotating logs (RotatingFileHandler) to prevent huge files
 5. Escape special characters in CSV fields

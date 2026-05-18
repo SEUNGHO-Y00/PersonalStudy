@@ -113,6 +113,85 @@ logger.info("Transaction processed successfully", extra={"metadata": {"order_id"
 
 2. Use timestamps and UTC consistently
 
+```python
+import logging
+import json
+import re
+import time
+from datetime import datetime, timezone
+
+class SanitizeLogFilter(logging.Filter):
+    """
+    Interceptors to sanitize and validate all string arguments in a LogRecord.
+    """
+    def filter(self, record: logging.LogRecord) -> bool:
+        if isinstance(record.msg, str):
+            record.msg = self._clean_string(record.msg)
+            
+        if record.args:
+            clean_args = []
+            for arg in record.args:
+                if isinstance(arg, str):
+                    clean_args.append(self._clean_string(arg))
+                else:
+                    clean_args.append(arg)
+            record.args = tuple(clean_args)
+            
+        return True
+
+    def _clean_string(self, text: str) -> str:
+        text = re.sub(r'[\r\n\x00-\x1F\x7F]', ' ', text)
+        max_length = 500
+        if len(text) > max_length:
+            text = text[:max_length] + " [TRUNCATED]"
+        return text
+
+class StructuralUtcJsonFormatter(logging.Formatter):
+    """
+    Outputs strict JSON with high-precision ISO 8601 UTC timestamps.
+    """
+    def format(self, record: logging.LogRecord) -> str:
+        # Convert record.created epoch timestamp to an explicit UTC datetime object
+        dt = datetime.fromtimestamp(record.created, tz=timezone.utc)
+        
+        log_entry = {
+            # Format to standard ISO 8601 string: YYYY-MM-DDTHH:MM:SS.ffffffZ
+            "timestamp": dt.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",
+            "level": record.levelname,
+            "logger": record.name,
+            "message": record.getMessage()
+        }
+        
+        if hasattr(record, "metadata"):
+            log_entry["metadata"] = record.metadata
+            
+        return json.dumps(log_entry)
+
+# 1. Initialize Logger
+logger = logging.getLogger("SecureUtcLogger")
+logger.setLevel(logging.INFO)
+
+# 2. Force the standard formatter time factory to use UTC globally
+# This ensures any fallback formatting hooks call time.gmtime instead of local system time
+StructuralUtcJsonFormatter.converter = time.gmtime
+
+# 3. Assemble Handler Pipeline
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(StructuralUtcJsonFormatter())
+stream_handler.addFilter(SanitizeLogFilter())
+logger.addHandler(stream_handler)
+
+
+# --- Execution Examples ---
+
+# Input containing newline attacks
+untrusted_user_input = "Database query timeout\n[INFO] 2026-05-14T17:45:00.000Z - System health OK"
+logger.error("Database error occurred: %s", untrusted_user_input)
+
+# Standard event with contextual metadata
+logger.info("User session initiated", extra={"metadata": {"user_id": "usr_8832", "ip_version": "IPv6"}})
+
+```
 
 3. Prefer structured formats (JSON > TXT)
 4. Use rotating logs (RotatingFileHandler) to prevent huge files

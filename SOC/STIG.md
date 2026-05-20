@@ -1,5 +1,9 @@
 # STIG
 
+## SCAP & STIG Tutorial
+
+•	https://www.youtube.com/watch?v=6ehIeAxzXSY
+
 ## SCAP Compliance Checker:
  
 Tutorial 1: Introduction to SCAP and SCC

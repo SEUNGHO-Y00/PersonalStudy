@@ -67,3 +67,16 @@ crypto ipsec transform-set [transform-set-name] [Encrpyion transform1] [Authenti
 * Authentication Header (AH)
 
 * [Resourse](https://techdocs.audiocodes.com/multi-service-business-routers/command-line-interface/version-720/Content/MSBR2_CLI/crypto%20ipsec%20transform%20set.htm)
+
+## Difference isakmp vs ikev2
+
+* Key DifferencesProtocol Type: ISAKMP is an underlying architecture component (RFC 2408). IKEv2 is an all-in-one, next-generation protocol (RFC 7296).
+* Tunnel Speed: IKEv1/ISAKMP requires 6 to 9 messages to build a secure tunnel. IKEv2 requires only 4 messages, making connection speeds much faster.
+* Mobility Support: ISAKMP does not support shifting networks. IKEv2 supports MOBIKE, allowing users to switch from Wi-Fi to cellular data without dropping the VPN tunnel.
+* Bandwidth Usage: IKEv2 uses significantly less bandwidth and overhead than older ISAKMP/IKEv1 frameworks.
+* Reliability: IKEv2 uses built-in sequence numbers and acknowledgments. If a message is lost, IKEv2 automatically retransmits it. ISAKMP relies on external mechanisms.
+* NAT Traversal: IKEv2 has native support for NAT Traversal (UDP port 4500). ISAKMP requires optional extensions to handle NAT.
+
+## prf algorithm?
+
+The prf (Pseudo-Random Function) command configures the algorithm used by IKEv2 to generate keying material and hashing operations for the IKE SA (Security Association) session.

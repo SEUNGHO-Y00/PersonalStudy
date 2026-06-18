@@ -27,6 +27,8 @@ The core difference between a Layer 2 (L2) and Layer 3 (L3) VLAN is how traffic 
   - Communication: Devices in different L3 VLANs can communicate directly through the switch (using a Switched Virtual Interface or SVI) without needing an external router.
   - Benefits: Speeds up inter-VLAN routing, reduces latency, and allows for advanced security like Access Control Lists (ACLs) to manage traffic flow based on IP addresses and ports.
 
+* [How do you troubleshoot VLAN trunking issues?](https://www.linkedin.com/advice/3/how-do-you-troubleshoot-vlan-trunking-issues-lt2lf)
+
 ## Firewall
 
 A Layer 2 (transparent) firewall handles VLANs by acting as an invisible security filter right in the middle of a VLAN segment or an 802.1Q trunk link. Because it does not have an IP address on these segments, it uses specialized techniques to inspect and pass VLAN-tagged traffic without breaking your broadcast domains.

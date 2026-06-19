@@ -27,6 +27,14 @@ The core difference between a Layer 2 (L2) and Layer 3 (L3) VLAN is how traffic 
   - Communication: Devices in different L3 VLANs can communicate directly through the switch (using a Switched Virtual Interface or SVI) without needing an external router.
   - Benefits: Speeds up inter-VLAN routing, reduces latency, and allows for advanced security like Access Control Lists (ACLs) to manage traffic flow based on IP addresses and ports.
 
+* VLAN tag
+
+A VLAN tag is an identifier (a specific ID number) added to a data packet's header to indicate which virtual local network the packet belongs to. It allows network switches and routers to distinguish, separate, and route traffic from multiple isolated networks over a single physical cable or connection.
+
+A clear way to understand VLAN tags and how they operate in a network includes:
+
+How VLAN Tagging WorksThe Process: Defined by the IEEE 802.1Q standard, the network switch adds a small, 4-byte identifier (the VLAN ID) to an Ethernet frame as it enters the network.The Purpose: This tag tells every switch along the way which specific network the data belongs to (e.g., Guest Wi-Fi, Finance, or Security Cameras).Tag Removal: Once the data packet reaches its final destination, the tag is usually stripped away so the receiving device can process the standard Ethernet frame without needing to know about VLANs.Tagged vs. Untagged PortsTagged Ports (Trunks): Used to connect networking equipment like switches or routers. These ports handle traffic for multiple VLANs at once. The tag is necessary here so the receiving switch knows which VLAN the data belongs to.Untagged Ports (Access Ports): Usually connected to end-user devices like a PC, printer, or smart TV. Devices like computers do not understand VLAN tags. The port adds a tag to the data as it enters the network and removes the tag as it leaves the network.
+
 * [How do you troubleshoot VLAN trunking issues?](https://www.linkedin.com/advice/3/how-do-you-troubleshoot-vlan-trunking-issues-lt2lf)
 
 ## Firewall

@@ -41,8 +41,12 @@ How VLAN Tagging WorksThe Process: Defined by the IEEE 802.1Q standard, the netw
 
 A Layer 2 (transparent) firewall handles VLANs by acting as an invisible security filter right in the middle of a VLAN segment or an 802.1Q trunk link. Because it does not have an IP address on these segments, it uses specialized techniques to inspect and pass VLAN-tagged traffic without breaking your broadcast domains.
 
+* Next-Generation Firewall
+
+  - Layer 2 Interfaces: In a Layer 2 deployment, the firewall provides switching between two or more networks. Devices are connected to a Layer 2 segment; the firewall forwards the frames to the proper port, which is associated with the MAC address identified in the frame. Configure a Layer 2 Interface when switching is required.
+  - Layer 3 Interface: In a Layer 3 deployment, the firewall routes traffic between multiple ports. Before you can Configure Layer 3 Interfaces, you must configure the virtual router or logical router that you want the firewall to use to route the traffic for each Layer 3 interface.
+
 * [transparent-firewall](https://www.fortinet.com/resources/cyberglossary/transparent-firewall)
 
 * [Palo Alto Firewall](https://www.wiresandwi.fi/blog/palo-alto-basic-setup)
 
-* 

@@ -45,8 +45,25 @@ A Layer 2 (transparent) firewall handles VLANs by acting as an invisible securit
 
   - Layer 2 Interfaces: In a Layer 2 deployment, the firewall provides switching between two or more networks. Devices are connected to a Layer 2 segment; the firewall forwards the frames to the proper port, which is associated with the MAC address identified in the frame. Configure a Layer 2 Interface when switching is required.
   - Layer 3 Interface: In a Layer 3 deployment, the firewall routes traffic between multiple ports. Before you can Configure Layer 3 Interfaces, you must configure the virtual router or logical router that you want the firewall to use to route the traffic for each Layer 3 interface.
+  - Security zones are a logical way to group physical and virtual interfaces on the firewall to control and log the traffic that traverses specific interfaces on your network. An interface on the firewall must be assigned to a security zone before the interface can process traffic. A zone can have multiple interfaces of the same type assigned to it (such as tap, layer 2, or layer 3 interfaces), but an interface can belong to only one zone.
+  - Policy rules on the firewall use security zones to identify where the traffic comes from and where it is going. Traffic can flow freely within a zone but traffic cannot flow between different zones until you define a Security policy rule that allows it. To allow or deny inter-zone traffic, Security policy rules must reference a source zone and destination zone (not interfaces) and the zones must be of the same type; that is, a Security policy rule can allow or deny traffic from one Layer 2 zone only to another Layer 2 zone.
 
 * [transparent-firewall](https://www.fortinet.com/resources/cyberglossary/transparent-firewall)
 
 * [Palo Alto Firewall](https://www.wiresandwi.fi/blog/palo-alto-basic-setup)
 
+* [Layer 2 Interfaces](https://docs.paloaltonetworks.com/ngfw/networking/configure-interfaces/layer-2-interfaces)
+
+* [Layer 3 Interfaces](https://docs.paloaltonetworks.com/ngfw/networking/configure-interfaces/layer-3-interfaces)
+
+* [Configure Interfaces and Zones](https://docs.paloaltonetworks.com/ngfw/getting-started/initial-setup-configuration-ngfws/segment-your-network/configure-interfaces-and-zones)
+
+* [Building Blocks of Security Zones](https://docs.paloaltonetworks.com/ngfw/help/10-1/network/network-zones/building-blocks-of-security-zones)
+
+* [Building Blocks of Zone Protection Profiles](https://docs.paloaltonetworks.com/ngfw/help/10-2/network/network-network-profiles/network-network-profiles-zone-protection/building-blocks-of-zone-protection-profiles)
+
+* [Manage VLANs](https://docs.paloaltonetworks.com/openconfig/1-1/openconfig-admin/openconfig-models/vlan/manage-vlans)
+
+* [Configure a Layer 2 Interface, Subinterface, and VLAN](https://docs.paloaltonetworks.com/ngfw/networking/configure-interfaces/layer-2-interfaces/configure-a-layer-2-interface-subinterface-and-vlan#configure-a-layer-2-interface-subinterface-and-vlan-pan-os)
+
+* [Security Policy Rules](https://docs.paloaltonetworks.com/network-security/security-policy/administration/security-rules)

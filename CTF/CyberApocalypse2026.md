@@ -20,3 +20,12 @@ def keygen():
     pk = [(H(s[0]), H(s[1])) for s in sk]
     return sk, pk
 ```
+
+### multivariate-cryptography (HFE)
+
+* Multivariate cryptography is a form of post-quantum cryptography based on the difficulty of solving systems of non-linear polynomial equations over finite fields.
+* Hidden Field Equations (HFE) is one of its most famous variations, proposed by Jacques Patarin in 1996 to build public-key encryption and digital signature systems.
+
+### RSA partial-key-exposure / Coppersmith attack
+
+* Coppersmith's attack is a powerful cryptographic method used to find small roots of modular polynomial equations, making it a major threat to RSA encryption when public exponents are small or when parts of the secret message are known.

@@ -1,5 +1,11 @@
 # Cisco ISR
 
+* Cisco ISE is security software used to control and audit network access, while Cisco ISR is physical hardware used to route data traffic between different locations.
+
+* Cisco ISE (Identity Services Engine) is a centralized Network Access Control (NAC) platform. It acts as a security gatekeeper. It determines exactly who and what is allowed onto your network.
+
+* Cisco ISR (Integrated Services Router) is a physical, modular routing hardware device. It functions as a traffic director. It physically connects branch offices to corporate headquarters, data centers, and the internet.
+
 ## Knowledge
 
 * A terminal server connects devices with a serial port to a local area network (LAN). Products marketed as terminal servers can be very simple devices that do not offer any security functionality, such as data encryption and user authentication. The primary application scenario is to enable serial devices to access network server applications, or vice versa, where security of the data on the LAN is not generally an issue. There are also many terminal servers on the market that have highly advanced security functionality to ensure that only qualified personnel can access various servers and that any data that is transmitted across the LAN, or over the Internet, is encrypted. Usually, companies that need a terminal server with these advanced functions want to remotely control, monitor, diagnose and troubleshoot equipment over a telecommunications network.

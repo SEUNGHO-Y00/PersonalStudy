@@ -1,4 +1,4 @@
-# Cisco Switch Packet Pcature (EPC)
+# Cisco Switch Packet Capture (EPC)
 
 * Embedded Packet Capture (EPC) on Cisco IOS and IOS XE is an onboard tool used to capture, store, and analyze network traffic directly on a router or switch. The key steps to run an EPC are setting up a capture buffer, defining a capture point, and starting the capture.
 

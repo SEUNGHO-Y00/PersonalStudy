@@ -4,6 +4,8 @@
 
 • Root Guard is **the access control door to the Executive Boardroom**. It expects employees (other switches) to walk through the hallways. However, if a junior employee tries to walk into the boardroom, sit in the CEO's chair, and start barking orders (sending a superior BPDU), Root Guard intercepts them, revokes their badge for that specific meeting room (root-inconsistent), but lets them continue working at their normal desk.
 
+• facing a host (BPDU Guard) or facing a switch (Root Guard).
+
 
 | Metric  |	BPDU Guard |	Root Guard |
 | --- | --- | --- |

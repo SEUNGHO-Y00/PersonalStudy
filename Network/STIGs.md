@@ -1,5 +1,12 @@
 # STIG Study Note
 
+## STIG Automation
+
+* [Automate STIG Checklists on Cisco IOS-XE Device - evaluate-stig tool](https://www.youtube.com/watch?v=-PK7WmkrDSE&t=7s)
+
+
+## BPDU Guard and Root Guard
+
 • BPDU Guard is **the external security gate at the front desk**. It assumes visitors are civilians (hosts). If a visitor arrives heavily armed with tactical gear (a BPDU), security doesn't ask questions—they lock down the turnstile immediately (err-disable), blocking them from entering entirely.
 
 • Root Guard is **the access control door to the Executive Boardroom**. It expects employees (other switches) to walk through the hallways. However, if a junior employee tries to walk into the boardroom, sit in the CEO's chair, and start barking orders (sending a superior BPDU), Root Guard intercepts them, revokes their badge for that specific meeting room (root-inconsistent), but lets them continue working at their normal desk.

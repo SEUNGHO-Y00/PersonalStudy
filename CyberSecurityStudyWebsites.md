@@ -82,6 +82,10 @@
 
 * https://taggartinstitute.org/p/detection-with-sigma
 
+## Certified Blue Team Level
+
+* [Blue Team](https://www.centri.org/certifications/blue-team-level-1)
+
 ---
 # Github
 

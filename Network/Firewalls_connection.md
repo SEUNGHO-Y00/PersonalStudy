@@ -2,8 +2,8 @@
 
 ## ZTP Disable
 
-Ah, that explains it. What you are experiencing is a very common PAN-OS software caveat. [1] (https://live.paloaltonetworks.com/t5/general-topics/pa-445-setup-on-mac/td-p/1253850)
-Even though changing the operating mode via the boot utility changes operational-mode to normal, the ZTP software daemon service is still running in the background and locking out your configuration changes. The hardware boot mode and the daemon flag are handled as two distinct backend variables. [1] (https://www.reddit.com/r/paloaltonetworks/comments/vxdskw/ztp_request_set_is_unexpected/)
+Ah, that explains it. What you are experiencing is a very common PAN-OS software caveat.
+Even though changing the operating mode via the boot utility changes operational-mode to normal, the ZTP software daemon service is still running in the background and locking out your configuration changes. The hardware boot mode and the daemon flag are handled as two distinct backend variables.
 To permanently kill the ZTP process and stop the "ZTP is in progress" loop, you must disable the service directly within the operational configuration.
 
 The Fix: Kill the ZTP Daemon
@@ -16,7 +16,7 @@ Expected CLI Result:
 ```text
 The firewall will be rebooted to disable ZTP mode. Do you want to continue? (y/n)
 ```
-Press y to accept. The firewall will immediately reboot one final time. [1] (https://live.paloaltonetworks.com/t5/general-topics/pa-445-setup-on-mac/td-p/1253850)
+Press y to accept. The firewall will immediately reboot one final time.
 
 ## Virtual Router
 

@@ -1,5 +1,25 @@
 # Firewalls connection
 
+## ZTP Disable
+
+Ah, that explains it. What you are experiencing is a very common PAN-OS software caveat. [1] (https://live.paloaltonetworks.com/t5/general-topics/pa-445-setup-on-mac/td-p/1253850)
+Even though changing the operating mode via the boot utility changes operational-mode to normal, the ZTP software daemon service is still running in the background and locking out your configuration changes. The hardware boot mode and the daemon flag are handled as two distinct backend variables. [1] (https://www.reddit.com/r/paloaltonetworks/comments/vxdskw/ztp_request_set_is_unexpected/)
+To permanently kill the ZTP process and stop the "ZTP is in progress" loop, you must disable the service directly within the operational configuration.
+
+The Fix: Kill the ZTP Daemon
+
+Connect to the Console port or SSH into the management IP (192.168.1.1). Disregard the scrolling ZTP errors, press Enter to wake up the prompt, log in with your administrative credentials, and execute this explicit command:
+```text
+admin@PA-Firewall> set system ztp disable
+```
+Expected CLI Result:
+```text
+The firewall will be rebooted to disable ZTP mode. Do you want to continue? (y/n)
+```
+Press y to accept. The firewall will immediately reboot one final time. [1] (https://live.paloaltonetworks.com/t5/general-topics/pa-445-setup-on-mac/td-p/1253850)
+
+## Virtual Router
+
 In Palo Alto Networks PAN-OS, a Virtual Router (VR) is a software-defined routing engine running inside a single physical firewall. It functions identically to a VRF (Virtual Routing and Forwarding) instance on a Cisco router, allowing you to completely isolate routing tables, paths, and protocols between different interfaces.
 Every Layer 3 interface on a Palo Alto firewall must be bound to a Virtual Router to forward traffic. By default, PAN-OS provides a single VR named default, but you can create multiple custom virtual routers to achieve advanced network architectures.
 
